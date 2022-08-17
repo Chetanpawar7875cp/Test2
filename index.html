@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+            <style>
+               body{
+                   background-color: antiquewhite;
+                   
+                   
+               }
+               h1{
+                   text-align: center;
+               }
+               label{
+                   align-items: center;
+                   margin-left: 25%;
+                   position: relative;
+                   
+               }
+               input{
+                   text-align: center;
+                   position: relative;
+                   
+               }
+               #female{
+                   margin-left: 0%;
+               }
+               div{
+                   margin-top: 50px;
+                   border-style: solid;
+                   box-sizing: border-box;
+                   margin-left: 35%;
+                   margin-right: 30%;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
+               }
+               #btn{
+                   margin-left: 45%;
+               }
+               #btn:hover{
+                display:inline-block;
+                padding:10px 20px;
+                background-color: #1BBA93;
+                font-size:17px;
+                border:none;
+                border-radius:5px;
+                color:#bcf5e7;
+                cursor:pointer;
+                
+               }
+              
+            </style>
+        
+    </head>
+        
+            <body>
+                <h1>Register Form</h1>
+                <div>
+                <label>Name</label>
+                <input type="text" name="Name">
+                <br><br>
+                <label>Mobile_No</label>
+                <input type="text" name="Mobile">
+                <br><br>
+                <label>EmailId</label>
+                <input type="text" name="EmailId">
+                <br><br>
+                <label>Male</label>
+                <input type="radio" name="Male" id="male">
+                <label id="female">Female</label>
+                <input type="radio" name="Female">
+                <br><br>
+                <label>DOB</label>
+                <input type="date" name="DOB">
+                <br><br>
+                <label>Password</label>
+                <input type="text" name="Password">
+                <br><br><br><br>
+                <button type="button" id="btn">Register</button>
+            </div>
+            </body>
+</html>
